@@ -10,7 +10,7 @@ import asyncio
 from aiogram.fsm.context import FSMContext
 
 load_dotenv()
-BOT_TOKEN = os.getenv('7955452029:AAGuAnp-u2q0ut-sutMysZJy5LXVOqWDrnM')
+BOT_TOKEN = os.getenv('BOT_TOKEN')
 
 bot = Bot(token=TOKEN, parse_mode=ParseMode.HTML)
 dp = Dispatcher(storage=MemoryStorage())
